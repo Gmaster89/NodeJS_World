@@ -1,1 +1,28 @@
 
+
+Name/value pair, a name which maps to a vlaue.
+- The name may be defined more than once, but only can have
+one value in any given context.
+That value may be more name/value pairs.
+
+
+eg: Address: '100 main st.';
+
+::: OBJECT in JS is a collection of name/value pair.:::
+Can be nested like on case of JSONs
+
+-Objects sits in memory and points to other objects.
+-But functions are special kind of objects.
+-Value might be a function. But when a function is attached to
+an object is called a method.
+
+BWA: 
+Object literal: when typing an object containing key/
+value pairs separated by commas, and surrounded by curly 
+brases
+
+{
+    st: 'main',
+    number: '10',
+.........
+}
