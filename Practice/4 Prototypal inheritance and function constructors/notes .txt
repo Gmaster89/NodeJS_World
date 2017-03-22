@@ -1,0 +1,27 @@
+
+Inheritance: 1 obj (name/value) can access methods and props
+name/value. 
+
+A bit different ; called protypal Inheritance.
+
+Eg: obj has prop.. so we access it by obj.prop1
+
+Now, every object has a property that actually points to
+another object, its the object's prototype.
+Its the thing it inherits from, its a different obj that
+it will then have access to that other object's properties
+and methods.
+
+obj.prop2, this is accesed as if it is a different object.
+Prototype can point to another prototype and that can have 
+more properties and obj can point to those props as well
+obj.prop3.
+so this is proptype chain
+obj.prop1 >> obj.prop2 >> obj.prop3
+
+obj2 can point to each prototype.. obj2.prop2
+
+
+Function constructors, a normal function that is used to 
+create objects. this points to new empty object 
+and that one is returned automatically.
