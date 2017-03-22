@@ -1,0 +1,8 @@
+BWA
+
+Primitive: type of data that represents a single value.
+Like number string, not an object
+
+a=b.... pass by value copy is made
+
+b=a by reference: no copy is made, pointing to the same location.
